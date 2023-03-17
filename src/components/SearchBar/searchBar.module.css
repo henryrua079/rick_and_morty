@@ -1,0 +1,17 @@
+.bar{
+    width: fit-content;
+}
+
+.searchInput{
+    border: 0px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #a8e339ed;
+    height: 2em;
+}
+
+.searchButton{
+    border: 0px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #a8e339ed;;
+    height: 2em;
+}

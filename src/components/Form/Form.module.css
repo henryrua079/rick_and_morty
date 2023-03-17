@@ -1,0 +1,60 @@
+.container{
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-direction: column; 
+    opacity: 0.6;
+    background-color: aqua;
+    height: 500px;
+    width: 500px;
+    align-items: center;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10%;
+    top: 50%;
+
+}
+.username{
+    font-family: rick;
+    font-size: 3.5em;
+    color: #a8e339ed ;
+
+}
+
+.password{
+    font-family: rick;
+    font-size: 3.5em;
+    color: #a8e339ed ;
+
+
+}
+
+.Form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-direction: column; 
+    background-color:#2d6e7e;
+    border-radius: 15px;
+    height: 500px;
+    width: 500px;
+
+    
+}
+
+.container:hover{
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+
+.warning{
+    border: solid red 1px;
+    border-radius: 0.2em;
+}
+
+.danger{
+    font-size: 10px;
+  color: red;
+  margin-left: 10em;
+}

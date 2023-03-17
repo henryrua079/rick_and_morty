@@ -1,0 +1,21 @@
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    /* flex-direction:row; */
+    grid-template-columns: repeat(4,1fr);
+    justify-content:space-between;
+    width: fit-content; 
+    /* margin: 10px; */
+    /* margin-top: 2em; */
+    /* padding: 2em; */
+    border-radius: 15px;
+    /* box-shadow: 10px 10px 5px 0px rgba(222, 2, 2, 0.75); */
+    /* background-color: aqua; */
+    
+}
+
+
+.search{
+    align-items: center;
+    background-color: brown;
+}

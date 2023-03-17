@@ -1,0 +1,29 @@
+@font-face{
+   font-family: 'rick';
+   src: url(../src/assets/fonts/get_schwifty.ttf);
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+.App {
+   display: flex;
+   text-align: center;
+   background-image: url('../src/assets/fondo1.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center center;
+   min-height: 100vh;
+   flex-direction: column;
+   margin: 0;
+
+
+}
+.nav{
+   display: inline;
+   direction: ltr;
+   background-color: aqua;
+   padding: 1em;
+   margin-bottom: 1em;
+} 

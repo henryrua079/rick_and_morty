@@ -1,0 +1,51 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: aqua; */
+ } 
+
+.opc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: -50px;
+    margin-top: 0px;
+    height: min-content;
+    /* background-color:blue */
+}
+
+ .home{
+    font-family: rick;
+    font-size: 3em;
+    text-decoration: none;
+    color: #a8e339ed;
+    opacity: 0.5;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: min-content;
+ }
+
+ .home:hover{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    opacity: 1;
+    color: #b5ff2ced;
+    transition: 0.5s ease-in-out;
+
+ }
+
+.letras{
+   margin-top: 0px;
+}
+
+
+ .bus{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    height: min-content;
+    /* background-color: aqua; */
+
+
+ }
