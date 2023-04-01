@@ -1,8 +1,19 @@
 import Card from '../Card/Card';
 import style from './Cards.module.css';
 import SearchBar from '../SearchBar/SearchBar';
+import { useDispatch, useSelector } from 'react-redux';
+import { useEffect } from 'react';
+import { getFavorites } from '../../redux/actions';
 
 export default function Cards({ characters, onClose, onSearch }) {
+
+   const fav = useSelector(state => state.myFavorites)
+   const dispatch = useDispatch();
+
+   useEffect(() => { 
+    dispatch(getFavorites());
+   },[])
+
 
    return (
 

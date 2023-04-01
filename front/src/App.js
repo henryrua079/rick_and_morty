@@ -19,12 +19,13 @@ function App (props) {
 //!Funcion para hacer peticion a la api de una card pasando la id.
 
   const onSearch = (id) => {                                //recibe el id del personaje
-    const URL_BASE = "https://be-a-rym.up.railway.app/api";
-    const KEY = "4fd12c84aec2.d28eaefd84c3df1a2e0f";
+    const URL_BASE = "http://localhost:3001";
+
     if (characters.find((char) => char.id === id)) {
       return alert("Card repetida")
     }
-    fetch(`${URL_BASE}/character/${id}?key=${KEY}`)         //recibe la url de la api
+    // fetch(`${URL_BASE}/character/${id}?key=${KEY}`)         //recibe la url de la api
+    fetch(`${URL_BASE}/onsearch/${id}`) 
       .then((response) => response.json())
       .then((data) => {
         if (data.name) {

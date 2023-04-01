@@ -10,8 +10,10 @@
 
 
 .detail{
+    direction: flex;
     margin: 0px;
     text-align:center;
+    align-items: baseline;
     color: #5eff00;
     word-wrap: break-word;
     font-size: 2.5em;
@@ -19,6 +21,9 @@
     text-shadow:  30px 10px 10px #000000;
     /* background-color: aqua; */
     flex-direction: column;
+    margin-top: -10px;
+    line-height:0.8em;
+
 
 }
 
@@ -27,10 +32,27 @@
 
 .imagen{
     border-radius: 10px;
-    margin-top: 150px;
+    margin-top: 70px;
     align-items: center;
     box-shadow: 0px 0px 100px 50px #5eff00;
     border: 50px  #17ff0f33;
+    margin-right: 200px;
+    /* height: 200px;
+    width: 200px; */
+    
+
+}
+
+.imagen1{
+     /* border-radius: 10px; */
+    margin-top: -100px;
+    align-items: center;
+    /*box-shadow: 0px 0px 100px 50px #5eff00;
+    border: 50px  #17ff0f33; */
+    /* background-color: aqua; */
+    height: 400px;
+    width: 400px;
+
     
 
 }

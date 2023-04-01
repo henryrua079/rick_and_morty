@@ -1,4 +1,4 @@
-import {ADD_FAVORITE, DELETE_FAVORITE, FILTER, ORDER} from './actions'
+import {ADD_FAVORITE, DELETE_FAVORITE, FILTER, GET_FAVORITES, ORDER} from './actions'
 
 import Card from '../components/Card/Card';
 
@@ -38,6 +38,13 @@ const rootReducer = (state = initialState, action) => {
                 ...state,
                 myFavorites:
                     action.payload === 'Ascendente' ? state.allCharacters.sort((a, b) => a.id - b.id): state.allCharacters.sort((a, b) => b.id - a.id)
+            }
+
+
+        case GET_FAVORITES:
+            return{
+                ...state,
+                myFavorites: action.payload
             }
            
 

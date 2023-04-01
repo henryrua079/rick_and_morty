@@ -21,7 +21,9 @@ import { actions } from "../../redux/actions";
 
 // export default Favorites;
 
+
 class Favorites extends React.Component {
+
     constructor(props) {
         super(props)
     }
